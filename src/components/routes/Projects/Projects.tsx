@@ -40,14 +40,14 @@ const Projects: React.FC = () => (
                   Pokemon go.
                </p>
                <p>
-                  Discover new places at any time by adventuring the city with real-time gps
-                  tracking and come accross other user&apos;s messages placed.
-               </p>
-               <p>
-                  This was created within 48 hours as apart of a company wide hackathon. We worked
-                  as a team of 6 where I acted as a Front-end Developer mainly producing all visual
-                  components on the application.
-               </p>
+               Discover new places at any time by adventuring the city with real-time gps tracking
+               and come across other user&apos;s messages.
+            </p>
+            <p>
+               Crosswalk was created within 48 hours as apart of a company wide hackathon. We worked as a
+               team of 6 where I acted as a Front-end Developer mainly producing all visual
+               components on the application.
+            </p>
                <p>We won the &quot;Technical Excellence&quot; prize category</p>
             </TextContainer>
          }
