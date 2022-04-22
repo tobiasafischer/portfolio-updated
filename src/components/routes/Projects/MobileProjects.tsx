@@ -39,10 +39,10 @@ const MobileProjects: React.FC = () => (
             </p>
             <p>
                Discover new places at any time by adventuring the city with real-time gps tracking
-               and come accross other user&apos;s messages placed.
+               and come across other user&apos;s messages.
             </p>
             <p>
-               This was created within 48 hours as apart of a company wide hackathon. We worked as a
+               Crosswalk was created within 48 hours as apart of a company wide hackathon. We worked as a
                team of 6 where I acted as a Front-end Developer mainly producing all visual
                components on the application.
             </p>
