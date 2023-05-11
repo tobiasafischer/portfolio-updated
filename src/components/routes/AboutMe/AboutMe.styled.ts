@@ -32,6 +32,7 @@ export const TextContainer = styled.div`
       font-size: 1rem;
       line-height: 25px;
       margin-top: 10px;
+      margin-bottom: 20px;
       span {
          color: #ef4444;
       }

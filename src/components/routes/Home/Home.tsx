@@ -23,7 +23,7 @@ const Home: React.FC = () => {
             <TextContainer>
                <h2>Tobias</h2>
                <h2>Fischer</h2>
-               <p>FRONTEND DEVELOPER</p>
+               <p>FULLSTACK ENGINEER</p>
             </TextContainer>
             <Image src="https://firebasestorage.googleapis.com/v0/b/portolfio.appspot.com/o/IMG_8275-min.jpg?alt=media&token=007572f8-9c74-40a1-a12f-ded3c19929a7" />
             <IconContainer style={style}>

@@ -5,8 +5,12 @@ const Img = styled.img`
    height: 174px;
 `
 
-export const Crosswalk: React.FC = () => (
-   <Img src="https://firebasestorage.googleapis.com/v0/b/portolfio.appspot.com/o/icon-apple.png?alt=media&token=4e24f961-0a54-4cf2-8b08-6a1e033c4dbd" />
+export const Sinai = ({ height, width }: { height: string; width: string }) => (
+   <Img
+      src="https://assets-global.website-files.com/618aebc419672ed549ae9b18/61f10fedd50b757799ca482b_Frame%20106.svg"
+      height={height}
+      width={width}
+   />
 )
 
 export const Dubsado: React.FC = () => (

@@ -1,54 +1,59 @@
 import React from 'react'
-import { Card, Crosswalk, Dubsado } from '../../shared'
+import { Card, Sinai, Dubsado } from '../../shared'
 import { Container, TextContainer } from './Projects.styled'
 
 const Projects: React.FC = () => (
    <Container>
       <Card
-         url="https://www.dubsado.com/"
-         icon={<Dubsado />}
+         url="https://sinai.com"
+         icon={<Sinai width="280px" height="178px" />}
          content={
             <TextContainer>
-               <h2>Dubsado, Burbank CA — Front-end Developer</h2>
+               <h2>Full-stack Engineer at Sinai, Remote</h2>
                <p>
-                  Acted as the primary front-end developer within my team for a login/signup page
-                  used by a user base of 30k+
+                  In my previous role, I was responsible for building a large-scale feature capable
+                  of processing hundreds of thousands of complex data for a multi-billion dollar
+                  banking customer. This feature saved over 60 hours of engineering time and over
+                  100 hours of customer service time per quarter.
                </p>
                <p>
-                  Laid the groundwork for rewriting the existing application into React from angular
+                  As a core team member, I also contributed to setting up the standards and
+                  practices for a new UI library implementation and oversaw the code reviews for the
+                  initial iterations of the project. I implemented the program Chromatic for the
+                  product team to enable secure hosting and review of UI components for any changes
+                  to existing features or new components.
                </p>
                <p>
-                  Held an integral role in the planning and development of the application by
-                  setting syntax, style guide, tech stack, and development processes Wrote extensive
-                  documentation and tutorials for training new and existing employees
-               </p>
-               <p>
-                  Was the first-point-of-contact for front-end related issues throughout the
-                  codebase
+                  I also developed a feature to streamline the data entry process within the
+                  application and created and optimized back-end processes by writing DAO, Manager,
+                  SQS, and endpoint functions. Finally, I implemented repository-wide linting and
+                  code formatting to ensure adherence to code standards and best practices.
                </p>
             </TextContainer>
          }
       />
       <Card
-         url="https://www.canva.com/design/DAE8q0jyS1A/kLNA_cUsiyYu1fWcdggl8g/view?utm_content=DAE8q0jyS1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-         icon={<Crosswalk />}
+         url="https://www.dubsado.com/"
+         icon={<Dubsado />}
          content={
             <TextContainer>
-               <h2>Crosswalk, Hackathon - Front-end Developer</h2>
+               <h2>Front-end Developer at Dubsado, Burbank CA</h2>
                <p>
-                  Crosswalk is a capacitorjs / React mobile application which is Twitter meets
-                  Pokemon go.
+                  As the primary front-end developer on my team, I was responsible for creating an
+                  exhaustible list of features in addition to a login/signup page used by over 30k
+                  users.
                </p>
                <p>
-               Discover new places at any time by adventuring the city with real-time gps tracking
-               and come across other user&apos;s messages.
-            </p>
-            <p>
-               Crosswalk was created within 48 hours as apart of a company wide hackathon. We worked as a
-               team of 6 where I acted as a Front-end Developer mainly producing all visual
-               components on the application.
-            </p>
-               <p>We won the &quot;Technical Excellence&quot; prize category</p>
+                  I played an integral role in the planning and development of the application,
+                  including setting syntax, style guide, tech stack, and development processes.
+                  Additionally, I laid the groundwork for rewriting the existing application into
+                  React from Angular.
+               </p>
+               <p>
+                  To ensure the success of the project, I wrote extensive documentation and
+                  tutorials for training new and existing employees. I was also the first point of
+                  contact for front-end related issues throughout the codebase.
+               </p>
             </TextContainer>
          }
       />

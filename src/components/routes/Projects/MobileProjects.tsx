@@ -1,9 +1,28 @@
 import React from 'react'
-import { Crosswalk, Dubsado } from '../../shared'
+import { Sinai, Dubsado } from '../../shared'
 import { Container, TextContainer, ProjectContainer } from './MobileProjects.styled'
 
 const MobileProjects: React.FC = () => (
    <Container>
+      <ProjectContainer>
+         <a href="https://www.canva.com/design/DAE8q0jyS1A/kLNA_cUsiyYu1fWcdggl8g/view?utm_content=DAE8q0jyS1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+            <Sinai width="140px" height="178px" />
+         </a>
+         <TextContainer>
+            <h2>Full-stack Engineer at Sinai, Remote</h2>
+            <p>
+               As a full-stack developer, I built a large-scale feature for a multi-trillion dollar
+               bank customer that saved over 60 hours of engineering time and over 100 hours of
+               customer service time per year.
+            </p>
+            <p>
+               I also contributed to setting up the standards and practices for a new UI library
+               implementation, developed a feature to streamline the data entry process, and created
+               and optimized back-end processes. Finally, I implemented repository-wide linting and
+               code formatting to ensure adherence to code standards and best practices.
+            </p>
+         </TextContainer>
+      </ProjectContainer>
       <ProjectContainer>
          <a href="https://www.dubsado.com/">
             <Dubsado />
@@ -25,28 +44,6 @@ const MobileProjects: React.FC = () => (
             <p>
                Was the first-point-of-contact for front-end related issues throughout the codebase
             </p>
-         </TextContainer>
-      </ProjectContainer>
-      <ProjectContainer>
-         <a href="https://www.canva.com/design/DAE8q0jyS1A/kLNA_cUsiyYu1fWcdggl8g/view?utm_content=DAE8q0jyS1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-            <Crosswalk />
-         </a>
-         <TextContainer>
-            <h2>Crosswalk, Hackathon - Front-end Developer</h2>
-            <p>
-               Crosswalk is a capacitorjs / React mobile application which is Twitter meets Pokemon
-               go.
-            </p>
-            <p>
-               Discover new places at any time by adventuring the city with real-time gps tracking
-               and come across other user&apos;s messages.
-            </p>
-            <p>
-               Crosswalk was created within 48 hours as apart of a company wide hackathon. We worked as a
-               team of 6 where I acted as a Front-end Developer mainly producing all visual
-               components on the application.
-            </p>
-            <p>We won the &quot;Technical Excellence&quot; prize category</p>
          </TextContainer>
       </ProjectContainer>
    </Container>

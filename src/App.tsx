@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react'
 import ReactFullpage from '@fullpage/react-fullpage'
 import styled from 'styled-components'
