@@ -62,24 +62,6 @@ module.exports = {
             tsx: 'never',
          },
       ],
-      'import/order': [
-         'error',
-         {
-            groups: ['builtin', 'external', 'internal'],
-            pathGroups: [
-               {
-                  pattern: 'react',
-                  group: 'external',
-                  position: 'before',
-               },
-            ],
-            pathGroupsExcludedImportTypes: ['react'],
-            alphabetize: {
-               order: 'asc',
-               caseInsensitive: true,
-            },
-         },
-      ],
    },
    settings: {
       'import/resolver': {
