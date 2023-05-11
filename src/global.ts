@@ -36,6 +36,10 @@ html {
   font-family: 'League Spartan', sans-serif;
 }
 
+.fp-watermark {
+  display: none;
+}
+
 h1,
 h2,
 h3,
