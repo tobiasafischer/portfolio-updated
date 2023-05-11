@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import ReactFullpage from '@fullpage/react-fullpage'
 import styled from 'styled-components'
@@ -25,11 +26,13 @@ const Container = styled.div`
    width: 100%;
    height: 100%;
 `
-function App() {
+
+const App = () => {
    const { isMobile } = useMediaQuery()
 
    return (
       <ReactFullpage
+         credits={{ enabled: false }}
          licenseKey=""
          scrollingSpeed={400}
          scrollOverflow={true}
