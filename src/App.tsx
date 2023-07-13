@@ -52,13 +52,13 @@ const App = () => {
                         <AboutMe />
                      </InnerContainer>
                   </div>
+                  <div id="projects" className="section">
+                     <InnerContainer>{isMobile ? <MobileProjects /> : <Projects />}</InnerContainer>
+                  </div>
                   <div id="skate" className="section">
                      <InnerContainer>
                         <Skate />
                      </InnerContainer>
-                  </div>
-                  <div id="projects" className="section">
-                     <InnerContainer>{isMobile ? <MobileProjects /> : <Projects />}</InnerContainer>
                   </div>
                   {isMobile && (
                      <div id="contact" className="section">
