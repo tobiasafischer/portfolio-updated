@@ -60,11 +60,13 @@ const App = () => {
                   <div id="projects" className="section">
                      <InnerContainer>{isMobile ? <MobileProjects /> : <Projects />}</InnerContainer>
                   </div>
-                  <div id="contact" className="section">
-                     <InnerContainer>
-                        <Contact />
-                     </InnerContainer>
-                  </div>
+                  {isMobile && (
+                     <div id="contact" className="section">
+                        <InnerContainer>
+                           <Contact />
+                        </InnerContainer>
+                     </div>
+                  )}
                   <GlobalStyle />
                </Container>
             </>
