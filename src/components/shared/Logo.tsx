@@ -1,15 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Img = styled.img`
-   height: 174px;
-`
+const Img = styled.img``
 
 export const Sinai = ({ height, width }: { height: string; width: string }) => (
    <Img
       src="https://assets-global.website-files.com/618aebc419672ed549ae9b18/61f10fedd50b757799ca482b_Frame%20106.svg"
       height={height}
       width={width}
+   />
+)
+export const BodyMX = ({ height, width }: { height: string; width: string }) => (
+   <Img
+      src="https://images-ext-1.discordapp.net/external/-JftW6KI7FJw96auJRxOarI11AaGQs-TPdr6Cgi1xrs/%3Falt%3Dmedia%26token%3D87b7af9b-a572-4aa6-b32e-59348580afaa/https/firebasestorage.googleapis.com/v0/b/bodymx-80bc1.appspot.com/o/BodyMXWhite.png?width=1277&height=433"
+      height={height}
+      width={width}
+      style={{ filter: 'brightness(0) invert(1)' }}
    />
 )
 

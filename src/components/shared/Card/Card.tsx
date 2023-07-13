@@ -3,8 +3,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Face = styled.div`
-   width: 600px;
-   height: 400px;
+   width: 700px;
+   height: 450px;
    transition: 0.5s;
    border-radius: 5px;
 `
@@ -16,7 +16,7 @@ const Cover = styled(Face)`
    position: relative;
    background: #dc2626;
    z-index: 1;
-   transform: translateY(200px);
+   transform: translateY(250px);
    &:hover {
       transform: translateY(0px);
    }

@@ -13,13 +13,25 @@ body {
 
   color: #f3f4f6;
   margin: 0;
-  overflow: hidden;
-  ::-webkit-scrollbar {
+  overflow-x: hidden;
+  /* ::-webkit-scrollbar {
     display: none;
   }
 
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  /*scrollbar-width: none;  Firefox */
+  body::-webkit-scrollbar {
+  width: .25em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
   height: 100%;
 
 }

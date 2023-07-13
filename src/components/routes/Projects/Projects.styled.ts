@@ -15,7 +15,7 @@ export const TextContainer = styled.div`
    flex-direction: column;
    width: 100%;
    height: 100%;
-   gap: 20px;
+   gap: 10px;
    h2 {
       font-size: 25px;
    }

@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactFullpage from '@fullpage/react-fullpage'
 import styled from 'styled-components'
-import { Home, AboutMe, Projects, Contact, MobileProjects } from './components/routes'
+import { Home, AboutMe, Projects, Contact, MobileProjects, Skate } from './components/routes'
 import GlobalStyle from './global'
 import { useMediaQuery } from './hooks'
 
@@ -11,9 +11,9 @@ const InnerContainer = styled.div`
    justify-content: center;
    align-items: flex-start;
    position: relative;
-   height: 80vh;
+   height: 100vh;
 
-   width: 100vw;
+   width: 100%;
    @media screen and (min-width: 768px) {
       align-items: center;
       height: 100vh;
@@ -40,27 +40,34 @@ const App = () => {
          cards={false}
          cardsOptions={{ perspective: 1, fadeContent: false, fadeBackground: false }}
          render={() => (
-            <Container>
-               <div className="section">
-                  <InnerContainer>
-                     <Home />
-                  </InnerContainer>
-               </div>
-               <div className="section">
-                  <InnerContainer>
-                     <AboutMe />
-                  </InnerContainer>
-               </div>
-               <div className="section">
-                  <InnerContainer>{isMobile ? <MobileProjects /> : <Projects />}</InnerContainer>
-               </div>
-               <div className="section">
-                  <InnerContainer>
-                     <Contact />
-                  </InnerContainer>
-               </div>
-               <GlobalStyle />
-            </Container>
+            <>
+               <Container>
+                  <div id="home" className="section">
+                     <InnerContainer>
+                        <Home />
+                     </InnerContainer>
+                  </div>
+                  <div id="aboutme" className="section">
+                     <InnerContainer>
+                        <AboutMe />
+                     </InnerContainer>
+                  </div>
+                  <div id="skate" className="section">
+                     <InnerContainer>
+                        <Skate />
+                     </InnerContainer>
+                  </div>
+                  <div id="projects" className="section">
+                     <InnerContainer>{isMobile ? <MobileProjects /> : <Projects />}</InnerContainer>
+                  </div>
+                  <div id="contact" className="section">
+                     <InnerContainer>
+                        <Contact />
+                     </InnerContainer>
+                  </div>
+                  <GlobalStyle />
+               </Container>
+            </>
          )}
       />
    )

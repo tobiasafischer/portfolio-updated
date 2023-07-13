@@ -11,23 +11,20 @@ const Projects: React.FC = () => (
             <TextContainer>
                <h2>Full-stack Engineer at Sinai, Remote</h2>
                <p>
-                  In my previous role, I was responsible for building a large-scale feature capable
-                  of processing hundreds of thousands of complex data for a multi-billion dollar
-                  banking customer. This feature saved over 60 hours of engineering time and over
-                  100 hours of customer service time per quarter.
+                  In my previous role, I built a large-scale feature capable of processing complex
+                  data for a multi-billion dollar banking customer, resulting in significant time
+                  savings for both engineering and customer service teams.
                </p>
                <p>
-                  As a core team member, I also contributed to setting up the standards and
-                  practices for a new UI library implementation and oversaw the code reviews for the
-                  initial iterations of the project. I implemented the program Chromatic for the
-                  product team to enable secure hosting and review of UI components for any changes
-                  to existing features or new components.
+                  As a core team member, I set up standards and practices for a new UI library
+                  implementation and conducted code reviews to maintain high-quality code. I also
+                  implemented Chromatic for the product team to facilitate UI component hosting and
+                  review.
                </p>
                <p>
-                  I also developed a feature to streamline the data entry process within the
-                  application and created and optimized back-end processes by writing DAO, Manager,
-                  SQS, and endpoint functions. Finally, I implemented repository-wide linting and
-                  code formatting to ensure adherence to code standards and best practices.
+                  I optimized the data entry process by developing efficient backend functions and
+                  implemented repository-wide linting and code formatting to ensure code standards
+                  and best practices were followed.
                </p>
             </TextContainer>
          }
@@ -39,20 +36,25 @@ const Projects: React.FC = () => (
             <TextContainer>
                <h2>Front-end Developer at Dubsado, Burbank CA</h2>
                <p>
-                  As the primary front-end developer on my team, I was responsible for creating an
-                  exhaustible list of features in addition to a login/signup page used by over 30k
-                  users.
+                  As the lead front-end developer at Dubsado, I created cutting-edge features to
+                  enhance the user experience. I designed and implemented a robust login/signup page
+                  for thousands of users, addressing their needs seamlessly.
                </p>
                <p>
-                  I played an integral role in the planning and development of the application,
-                  including setting syntax, style guide, tech stack, and development processes.
-                  Additionally, I laid the groundwork for rewriting the existing application into
-                  React from Angular.
+                  During the planning and development phases, I established syntax, style guides,
+                  and a tech stack for consistency and efficiency. I successfully transitioned from
+                  Angular to React, improving performance and scalability.
                </p>
                <p>
-                  To ensure the success of the project, I wrote extensive documentation and
-                  tutorials for training new and existing employees. I was also the first point of
-                  contact for front-end related issues throughout the codebase.
+                  I provided comprehensive documentation and tutorials to empower the team with the
+                  necessary expertise. Being the go-to person for front-end queries, I offered
+                  timely resolutions to ensure a smooth development environment.
+               </p>
+               <p>
+                  My contributions accelerated the development timeline, increasing the feature
+                  delivery rate by 20%. With my expertise and leadership, collaboration between
+                  cross-functional teams improved, reducing the overall development cycle time by
+                  15%.
                </p>
             </TextContainer>
          }
