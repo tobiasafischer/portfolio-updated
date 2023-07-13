@@ -5,7 +5,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { styled } from 'styled-components'
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 
 import { tricks, TreeNode } from './data' // Importing the data from the updated dataset
 import { useMediaQuery } from '../../../hooks'
