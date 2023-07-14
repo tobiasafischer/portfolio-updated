@@ -7,7 +7,7 @@ const AboutMe: React.FC = () => (
       <TextContainer>
          <h2>Who am I?</h2>
          <p>
-            {`I am a growth-oriented full-stack engineer with 2 years of experience specializing in
+            {`I am a growth-oriented full-stack engineer with 1 year, 8 months of experience specializing in
             React, GraphQL, and Node. My expertise in these technologies allows me to develop
             efficient and accurate solutions to complex problems.`}
          </p>
