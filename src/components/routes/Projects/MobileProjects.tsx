@@ -9,17 +9,22 @@ const MobileProjects: React.FC = () => (
             <Sinai width="140px" height="178px" />
          </a>
          <TextContainer>
-            <h2>Full-stack Engineer at Sinai, Remote</h2>
+            <h2>Software Engineer at Sinai, Remote</h2>
             <p>
-               As a full-stack developer, I built a large-scale feature for a multi-trillion dollar
-               bank customer that saved over 60 hours of engineering time and over 100 hours of
-               customer service time per year.
+               In my previous role, I built a large-scale feature capable of processing complex data
+               for a multi-billion dollar banking customer, resulting in significant time savings
+               for both engineering and customer service teams.
             </p>
             <p>
-               I also contributed to setting up the standards and practices for a new UI library
-               implementation, developed a feature to streamline the data entry process, and created
-               and optimized back-end processes. Finally, I implemented repository-wide linting and
-               code formatting to ensure adherence to code standards and best practices.
+               As a core team member, I set up standards and practices for a new UI library
+               implementation and conducted code reviews to maintain high-quality code. I also
+               implemented Chromatic for the product team to facilitate UI component hosting and
+               review.
+            </p>
+            <p>
+               I optimized the data entry process by developing efficient backend functions and
+               implemented repository-wide linting and code formatting to ensure code standards and
+               best practices were followed.
             </p>
          </TextContainer>
       </ProjectContainer>
@@ -28,21 +33,17 @@ const MobileProjects: React.FC = () => (
             <Dubsado />
          </a>
          <TextContainer>
-            <h2>Dubsado, Burbank CA — Front-end Developer</h2>
+            <h2>Intermediate Software Developer at Dubsado, Burbank CA</h2>
             <p>
-               Acted as the primary front-end developer within my team for a login/signup page used
-               by a user base of 30k+
-            </p>
-            <p>
-               Laid the groundwork for rewriting the existing application into React from angular
-            </p>
-            <p>
-               Held an integral role in the planning and development of the application by setting
-               syntax, style guide, tech stack, and development processes Wrote extensive
-               documentation and tutorials for training new and existing employees
-            </p>
-            <p>
-               Was the first-point-of-contact for front-end related issues throughout the codebase
+               As the lead front-end developer at Dubsado, I created cutting-edge features to
+               enhance the user experience. I designed and implemented a robust login/signup page
+               for thousands of users, addressing their needs seamlessly. During the planning and
+               development phases, I established syntax, style guides, and a tech stack for
+               consistency and efficiency. I successfully transitioned from Angular to React,
+               improving performance and scalability. I provided comprehensive documentation and
+               tutorials, resolving front-end queries promptly. My contributions accelerated
+               development, increasing feature delivery by 20% and reducing development cycle time
+               by 15%.
             </p>
          </TextContainer>
       </ProjectContainer>

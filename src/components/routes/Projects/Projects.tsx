@@ -9,7 +9,7 @@ const Projects: React.FC = () => (
          icon={<Sinai width="280px" height="178px" />}
          content={
             <TextContainer>
-               <h2>Full-stack Engineer at Sinai, Remote</h2>
+               <h2>Software Engineer at Sinai, Remote</h2>
                <p>
                   In my previous role, I built a large-scale feature capable of processing complex
                   data for a multi-billion dollar banking customer, resulting in significant time
@@ -34,11 +34,12 @@ const Projects: React.FC = () => (
          icon={<Dubsado />}
          content={
             <TextContainer>
-               <h2>Front-end Developer at Dubsado, Burbank CA</h2>
+               <h2>Intermediate Software Developer at Dubsado, Burbank CA</h2>
                <p>
-                  As the lead front-end developer at Dubsado, I created cutting-edge features to
-                  enhance the user experience. I designed and implemented a robust login/signup page
-                  for thousands of users, addressing their needs seamlessly.
+                  As the lead front-end developer (official title was Intermediate Software
+                  Developer) at Dubsado, I created cutting-edge features to enhance the user
+                  experience. I designed and implemented a robust login/signup page for thousands of
+                  users, addressing their needs seamlessly.
                </p>
                <p>
                   During the planning and development phases, I established syntax, style guides,
