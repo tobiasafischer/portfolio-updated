@@ -69,10 +69,6 @@ const Contact: React.FC = () => (
          </svg>
          <a href="https://www.linkedin.com/in/tobiasafischer/">tobiasafischer</a>
       </ContactLine>
-      <ContactLine>
-         <Icon icon="description" color="#f3f4f6" size="30px" />
-         <a href="tobias-fischer.pdf">click to download my resume</a>
-      </ContactLine>
    </Container>
 )
 
